@@ -11,6 +11,7 @@ namespace GenericLesson
             Check<int> checkInt = new Check<int>();
             bool check = checkInt.Compare(3, 4);
             Console.WriteLine(check);
+            Console.WriteLine();
             Console.WriteLine("bla bla...");
             Check<string> checkStr = new Check<string>();
             Console.WriteLine(checkStr.Compare("aaaa", "aaaa"));
