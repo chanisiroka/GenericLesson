@@ -16,6 +16,7 @@ namespace GenericLesson
             Check<string> checkStr = new Check<string>();
             Console.WriteLine(checkStr.Compare("aaaa", "aaaa"));
             Console.WriteLine("my change ....dov siroka....");
+            Console.WriteLine("bla bla...");
             Console.Read();
         }
     }
